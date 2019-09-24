@@ -14,7 +14,9 @@
   },
   "author": "Kevin Py",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "@types/node": "^12.7.5"
+  },
   "devDependencies": {
     "@types/jest": "^24.0.18",
     "jest": "^24.9.0",
