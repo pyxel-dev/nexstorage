@@ -1,7 +1,10 @@
 {
   "name": "@pyxeldev/nextstorage",
-  "version": "1.0.2",
-  "description": "A tiny storage for web app",
+  "version": "1.1.0",
+  "description": "A tiny helper for local / session storage for web app",
+  "author": "Kevin Py",
+  "license": "MIT",
+  "keywords": ["LocalStorage", "SessionStorage"],
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
@@ -13,8 +16,6 @@
     "test:coverage": "jest --coverage",
     "prepare": "npm run test && npm run build"
   },
-  "author": "Kevin Py",
-  "license": "MIT",
   "devDependencies": {
     "@types/jest": "^25.2.1",
     "@types/node": "^13.11.0",
