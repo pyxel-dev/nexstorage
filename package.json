@@ -4,7 +4,10 @@
   "description": "A tiny helper for local / session storage for web app",
   "author": "Kevin Py",
   "license": "MIT",
-  "keywords": ["LocalStorage", "SessionStorage"],
+  "keywords": [
+    "LocalStorage",
+    "SessionStorage"
+  ],
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
@@ -21,6 +24,7 @@
     "@types/node": "^13.11.0",
     "jest": "^25.2.7",
     "ts-jest": "^25.3.1",
+    "typedoc": "^0.17.6",
     "typescript": "^3.8.3"
   }
 }
