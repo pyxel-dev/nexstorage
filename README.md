@@ -7,7 +7,7 @@ Create your own local / session storage easy. You can **create**, **get**, **set
 ## Install
 
 ```sh
-npm i @pyxel-dev/reset-css
+npm i @pyxel-dev/nextstorage
 ```
 
 ## Usage
