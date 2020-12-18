@@ -1,12 +1,16 @@
 {
-  "name": "@pyxeldev/nextstorage",
-  "version": "1.1.1",
-  "description": "A tiny helper for local / session storage for web app",
+  "name": "@pyxeldev/store",
+  "version": "1.2.0",
+  "description": "Create a store for your web project",
   "author": "Kevin Py",
   "license": "MIT",
   "keywords": [
-    "LocalStorage",
-    "SessionStorage"
+    "localstorage",
+    "sessionstorage",
+    "store",
+    "store-json",
+    "javascript",
+    "typescript"
   ],
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -14,17 +18,18 @@
     "/dist"
   ],
   "scripts": {
-    "build": "tsc",
+    "build:doc": "typedoc",
+    "build:project": "tsc",
     "test": "jest",
     "test:coverage": "jest --coverage",
-    "prepare": "npm run test && npm run build"
+    "prepare": "npm run test && npm run build:project && npm run build:doc"
   },
   "devDependencies": {
-    "@types/jest": "^25.2.1",
-    "@types/node": "^13.11.0",
-    "jest": "^25.2.7",
-    "ts-jest": "^25.3.1",
-    "typedoc": "^0.17.6",
-    "typescript": "^3.8.3"
+    "@types/jest": "^26.0.19",
+    "@types/node": "^14.14.14",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.4.4",
+    "typedoc": "^0.19.2",
+    "typescript": "^4.1.3"
   }
 }

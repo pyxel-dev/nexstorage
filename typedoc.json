@@ -1,4 +1,7 @@
 {
   "mode": "file",
-  "out": "docs"
+  "out": "docs",
+  "target": "es5",
+  "theme": "minimal",
+  "readme": "none"
 }

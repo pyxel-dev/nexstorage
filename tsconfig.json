@@ -10,7 +10,7 @@
     "moduleResolution": "node"
   },
   "typedocOptions": {
-    "mode": "modules",
+    "mode": "file",
     "out": "docs"
   },
   "include": ["src/**/*"],
