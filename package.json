@@ -1,9 +1,19 @@
 {
   "name": "@pyxeldev/store",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Create a store for your web project",
   "author": "Kevin Py",
   "license": "MIT",
+  "homepage": "https://github.com/pyxel-dev/store",
+  "bugs": "https://github.com/pyxel-dev/store/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pyxel-dev/store.git"
+  },
+  "funding": {
+    "type": "buymeacoffee",
+    "url": "https://buymeacoff.ee/kevinpy"
+  },
   "keywords": [
     "localstorage",
     "sessionstorage",
